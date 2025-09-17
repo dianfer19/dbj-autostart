@@ -1,0 +1,36 @@
+
+[general]
+prewarm_workspaces = [1,2,3]
+poll_interval_ms = 200
+default_timeout_s = 20
+
+#[[app]]
+#name = "PyCharm"
+#cmd  = "pycharm"
+#class_regex = "^jetbrains-pycharm$"
+#workspace = 1
+
+#[[app]]
+#name = "DataGrip"
+#cmd  = "datagrip"
+#class_regex = "^jetbrains-datagrip$"
+#workspace = 1
+
+[[app]]
+name = "Brave"
+cmd  = "brave --profile-directory=Default"
+class_regex = "^(Brave-browser|Google-chrome|firefox)$"
+workspace = 1
+
+
+[[app]]
+name = "Kitty"
+cmd  = "kitty"
+class_regex = "^kitty$"
+workspace = 1
+
+[[app]]
+name = ""
+cmd  = "kitty"
+class_regex = "^kitty$"
+workspace = 1
