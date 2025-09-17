@@ -30,7 +30,7 @@ class_regex = "^kitty$"
 workspace = 1
 
 [[app]]
-name = ""
+name = "Kitty"
 cmd  = "kitty"
 class_regex = "^kitty$"
 workspace = 1
